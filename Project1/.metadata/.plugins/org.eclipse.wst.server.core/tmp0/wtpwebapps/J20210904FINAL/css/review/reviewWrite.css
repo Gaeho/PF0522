@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	border: solid;
+	border-style: thin;
+	border-collapse: collapse;
+	width: 1020px;
+	margin: 55px auto 0 auto;
+}
+
+.reivewContents1_child1 {
+	justify-content: center;
+	border-bottom: solid;
+	height: 70px;
+	width: 800px;
+	text-align: center;
+	margin: 100px auto 0 auto;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+
+tr, td {
+	border: solid;
+	border-style: thin;
+	height: 50px;
+	width: 120px;
+}
+
+.tdddd {
+	text-align: center;
+	font-weight: bold;
+}
+
+.reviewWWW {
+	display: flex;
+	align-content: flex-start;
+	padding: 10px;
+}
+
+#recontxt {
+	min-height: 150px;
+	min-width: 600px;
+	max-width: 600px;
+	max-height: 150px;
+	padding: 10px;
+}
+
+.buttonFamily {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-right: 30px;
+}
+
+.buttonFamily>input {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.buttonFamily>input:hover {
+	background: #5E5E5E;
+	color: white;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.wrap {
+	padding: 0 25% 0 25%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+h3 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #373737;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 40px;
+}
+
+.product-view {
+	position: relative;
+	padding: 0 0 0 395px;
+	width: 962px;
+	box-sizing: border-box;
+}
+
+.product-view>h2 {
+	border-bottom: 2px soild #5E5E5E;
+	font-size: 26px;
+	color: #232323;
+	line-height: 26px;
+	padding: 0 0 10px;
+}
+
+.product-view .pd-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.product-view .pd-img>img {
+	width: 368px;
+	height: 370px;
+	border: 1px soild #e8e8e8;
+}
+
+.product-view .pd-img li:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.product-view .pd-img li {
+	float: left;
+	padding: 10px 10px 0 0;
+}
+
+.product-view .pd-img li img {
+	width: 68px;
+	height: 68px;
+	border: 1px soild #5E5E5E;
+}
+
+.product-view table th {
+	font-size: 18px;
+	color: #373737;
+	text-align: left;
+}
+
+.product-view table td {
+	font-size: 17px;
+	color: #373737;
+	text-align: center;
+	padding: 12px;
+}
+
+.product-view table td.price {
+	font-size: 22px;
+}
+
+.product-view table .length {
+	position: relative;
+	width: 71px;
+	height: 32px;
+}
+
+.product-view table .length input {
+	width: 44px;
+	height: 20px;
+	padding-left: 10px;
+	border: 1px soild #5E5E5E;
+}
+
+.product-view table .length a {
+	width: 30px;
+	height: 16px;
+	position: absolute;
+	border: 1px solid #373737;
+	right: 0;
+	top: 0;
+}
+
+.product-view .btns {
+	text-align: left;
+	cursor: pointer;
+	margin-top: 48px;	
+}
+
+.product-view .btns>a {
+	display: inline-block;
+	height: 42px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+}
+
+.product-view .btns>a.btn1 {
+	background: #373737;
+	width: 120px;
+	border-radius: 3px;
+}
+
+.product-view .btns>a.btn2 {
+	background: #373737;
+	width: 80px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+
+.product-view .btns>a.btn3 {
+	background: #373737;
+	width: 80px;
+	margin-left: 5px;
+	border-radius: 3px;
+}
+
+.product-view .btns>a.btn1:hover {
+	background: #f3cf63;
+}
+
+.product-view .btns>a.btn2:hover {
+	background: #f3cf63;
+}
+
+.product-view .btns>a.btn3:hover {
+	background: #f3cf63;
+}
+
+.scroll-img {
+	padding: 10% 25% 0 25%;
+}

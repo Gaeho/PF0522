@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.login-section {
+	position: absolute;
+/* 	width: 550px; */
+/* 	height: 525px; */
+	width: 450px;
+	height: 425px;
+	background-color: #373737;
+	margin-top: 225px;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+h2 {
+/* 	font-size: 48px; */
+	font-size: 44px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.login-section>.id-section, .login-section>.pw-section {
+/* 	width: 500px; */
+/* 	height: 50px; */
+	width: 400px;
+	height: 40px;
+	border-style: none;
+	border-radius: 6px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.login-section>.id-section {
+/* 	margin: 50px 0 5px 0; */
+	margin: 40px 0 5px 0;
+}
+
+.login-section>.pw-section {
+	margin-bottom: 40px;
+}
+
+.login-section>.chk {
+	font-size: 26px;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+/* 	width: 510px; */
+/* 	height: 65px; */
+	width: 410px;
+	height: 55px;
+	background: #f3cf63;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.login-section>.chk:hover {
+	background: #5E5E5E;
+	color: white;
+}
+
+.login-section>.btn {
+	margin-top: 30px;
+}
+
+.login-section>.btn>.btn1 {
+	font-size: 14px;
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 100px;
+	height: 20px;
+	color: #fff;
+	border: none;
+	border-right: 1px solid white;
+	background: #373737;
+}
+
+.login-section>.btn>.btn2 {
+	font-size: 14px;
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 120px;
+	height: 20px;
+	color: #fff;
+	border: none;
+	border-right: 1px solid white;
+	background: #373737;
+}
+
+.login-section>.btn>.btn3 {
+	font-size: 14px;
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 80px;
+	height: 40px;
+	color: #fff;
+	border: none;
+	background: #373737;
+}

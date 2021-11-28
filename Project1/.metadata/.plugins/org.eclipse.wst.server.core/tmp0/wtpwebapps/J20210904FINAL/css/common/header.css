@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+}
+
+/* Navigation Section */
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+}
+
+.nav>ul:after {
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+
+.nav>li {
+	float: left;
+}
+
+.nav>li a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 45px;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.nav>li a:hover:not(.active) {
+	color: #f3cf63;
+}
+
+/* Background Section */
+
+.intro-background {
+	background-color: #373737;
+	width: 100%;
+	height: 314px;
+}
+
+.intro-text>h1 a {
+	font-size: 80px;
+	font-weight: 100;
+	font-family: 'Lora', serif;
+	text-decoration: none;
+}
+.intro-text>h1 a:link {
+    color: #fff;
+}
+ 
+.intro-text>h1 a:visited {
+    color: #fff;
+}
+ 
+.intro-text>h1 a:hover {
+    color: #f3cf63;
+}
+ 
+.intro-text>h1 a:active {
+    color: #f3cf63;
+}
+
+.intro-text {
+	margin: 60px auto 60px auto;
+	text-align: center;
+}
+
+.intro-text>h1, .intro-text>h4 {
+	font-family: 'Lora', serif;
+	color: #fff;
+}
+
+.intro-text>h4 {
+	font-size: 25px;
+}
+
+/* Search Section */
+
+.search {
+	display: block;
+	float: left;
+	position: absolute;
+  	top: 220px;
+  	left: 50%;
+  	transform: translateX(-50%);
+}
+
+.search>.search-content {
+	width: 300px;
+	height: 20px;
+	background-color: #373737;
+	border-radius: 3px;
+	border-color: #fff;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #f3cf63;
+	border: 1px solid white;
+    padding: 5px;
+}
+
+.search>.search-cate {
+	width: 70px;
+	
+	font-family: 'Noto Sans KR', sans-serif;
+	border: 1px solid white;
+    padding: 5px;
+}
+
+/* Main List Section */
+
+.mainlist {
+	position: relative;
+	top: -50px;
+	display: flex;
+	width: 1280px;
+	background: #fff;
+	margin: auto;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.mainlist>li {
+	flex: 1;
+	height: 100px;
+}
+
+.mainlist>li>div {
+	text-align: center;
+    margin-top: 20px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.mainlist>li:not(:last-child)>div {
+	border-right: 2px solid #E1E1E1;
+}
+
+.ml-text {
+	font-size: 24px;
+	font-family: 'Noto Sans KR', sans-serif;
+}

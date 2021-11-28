@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.subject {
+	font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #5e5e5e;
+    border-bottom: 3px solid #cecece;
+    max-width: 1020px;
+    margin: 50px auto 0;
+	
+	
+}
+
+table {
+	margin-top: 40px;
+
+	border-style: thin;
+	border-collapse: collapse;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.rvhead1 th {
+	border-bottom: 1px solid;
+	height: 40px;
+	background-color: #E0E0E0;
+}
+
+.rvlist1 td {
+	
+	border-bottom: 1px solid #E0E0E0;
+}
+
+td {
+	
+	height: 40px;
+	text-align: center;
+}
+
+.num {
+	text-align: center;
+	size: 50px;
+	
+}
+
+.num a {
+	display: inline-block;
+	border: 1px solid #cecece;
+	padding: 10px 0;
+	width: 40px;
+	color: black;
+	background: #f8f9fa;
+}
+
+
+.click {
+	text-align: right;
+	padding: 10px 10px 0px 0px;
+}
+
+.click>input {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.click>input:hover {
+	background: #5E5E5E;
+	color: white;
+}
+
+#reviewsub{
+	color: black;
+}
+/* .list_1{
+	border: solid;
+	text-align: center;
+	height:50px;
+	width:1220px;
+}
+
+.list_1 > th{
+	margin-left: 50px;
+} */

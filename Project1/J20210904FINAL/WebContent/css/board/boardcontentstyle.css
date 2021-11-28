@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.contents {
+	width: 1200px;
+	margin: auto;
+}
+
+div.bdContent1 {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+div.bdcontentsboard1 {
+	border: 3px solid #d9d9d9;
+	padding: 20px;
+}
+
+div.bdupperCont1 {
+	border-bottom: 3px solid #d9d9d9;
+}
+
+div.bdlowerCont1t {
+	border-bottom: 3px solid #d9d9d9;
+}
+
+div.bdrightform1 {
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#bdheadpoint1 {
+	width: auto;
+	display: block;
+	text-align: left;
+	background: #373737;
+	color: white;
+	max-width: 1000px;
+	height: 80px;
+	margin-top: 22px;
+}
+
+#bdfont1 {
+	padding: 20px;
+	text-align: center;
+	font-size: 30px
+}
+
+#bdtitle1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+#bdcontrow1 {
+	display: block;
+	text-align: right;
+}
+
+#bdcontrow1_inline_right {
+	float: right;
+}
+
+#bdcontrow1_inline_left {
+	text-align: left;
+	display: inline-block;
+}
+
+#bdcontext1 {
+	min-height: 300px;
+	padding: 20px;
+	font-size: 20px;
+	word-break:break-all;
+}
+
+#bdbtn1 {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+#bdbtn1:hover {
+	background: #5E5E5E;
+	color: white;
+}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+table {
+	margin-top: 55px;
+	border: solid;
+	border-style: thin;
+	border-collapse: collapse;
+	width: 1020px;
+	margin: 55px auto 0 auto;
+}
+
+.reivewUContents1_child1 {
+	justify-content: center;
+	border-bottom: solid;
+	height: 70px;
+	width: 800px;
+	text-align: center;
+	margin: 100px auto 0 auto;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;	
+	align-content: center;
+}
+
+tr, td {
+	border: solid;
+	border-style: thin;
+	height: 50px;
+	width: 120px;
+}
+
+.tdddd222 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.reviewUw {
+	display: flex;
+	align-content: flex-start;
+	padding: 10px;
+}
+
+#revctxt {
+	min-height: 150px;
+	min-width: 600px;
+	max-width: 600px;
+	max-height: 150px;
+	padding: 10px;
+}
+
+.reUbu {
+	text-align: center;
+	padding: 30px;
+}
+
+.reUbu>input {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+.reUbu>input:hover {
+	background: #5E5E5E;
+	color: white;
+}
+
+/* * { */
+/* 	font-family: 'Noto Sans KR', sans-serif; */
+/* } */
+
+/* table { */
+/* 	margin-top: 55px; */
+/* 	border: solid; */
+/* 	border-style: thin; */
+/* 	border-collapse: collapse; */
+/* 	width: 60%; */
+/* } */
+
+/* .reivewUContents1_child1 { */
+/* 	justify-content: center; */
+/* 	align-content: center; */
+/* 	border-bottom: solid; */
+/* 	height: 70px; */
+/* 	text-align: center; */
+/* 	margin-top: 100px; */
+/* 	font-size: 30px; */
+/* 	font-weight: bold; */
+/* 	font-family: 'Raleway', sans-serif; */
+/* 	margin-left: 100px; */
+/* 	margin-right: 100px; */
+/* } */
+
+/* tr, td { */
+/* 	border: solid; */
+/* 	border-style: thin; */
+/* 	height: 50px; */
+/* 	width: 120px; */
+/* } */
+
+/* .tdddd222 { */
+/* 	text-align: center; */
+/* 	font-weight: bold; */
+/* } */
+
+/* .reviewUw { */
+/* 	display: flex; */
+/* 	align-content: flex-start; */
+/* } */
+
+/* #revctxt { */
+/* 	min-height: 150px; */
+/* 	min-width: 600px; */
+/* 	max-width: 600px; */
+/* 	max-height: 150px; */
+/* } */
+
+/* .reUbu { */
+/* 	text-align: center; */
+/* 	padding: 30px; */
+/* } */
+
+/* .reUbu>input { */
+/* 	border: 1px solid #cecece; */
+/* 	border-radius: 1px; */
+/* 	background-color: white; */
+/* 	color: black; */
+/* 	padding: 5px; */
+/* } */
+
+/* .reUbu>input:hover { */
+/* 	background: #5E5E5E; */
+/* 	color: white; */
+/* } */

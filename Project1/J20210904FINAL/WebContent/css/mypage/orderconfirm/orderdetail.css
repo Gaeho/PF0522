@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.odbiggest1 {
+	width: 100%;
+	text-align:center;
+}
+
+div.odupperinfo1 {
+	display: inline-block;
+	text-align : right;
+	/* border: 3px solid #c4c4c4;  */
+	border-radius: 5px; 
+	background: #373737;
+	color: white;
+	width: 50%;
+	margin: 0;
+	padding: 10px;	
+}
+
+div.odoutro1 {
+		border: 1px;
+		border-color: black;
+		display: inline-block;	
+		width: 619px; /* 예비  */		
+		background: #f8f9fa;
+}
+
+div.odpicture1  {
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+	height: 200px;
+	}
+	
+div.odcontent1 {
+	display: inline-block;
+	vertical-align: middle;
+	border-bottom: 3px;
+	border-right: 3px;
+	margin-left: 10px;
+	width: 50%; /* 예비 */
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	padding-top: 15px;
+	padding-bottom : 15px;
+	
+}
+
+.odcontent2 {
+	text-align: left;
+	max-width: 80%; /* 예비  */
+}
+
+.odcontent2 h2 {
+	margin-bottom: 20px;
+}
+
+
+

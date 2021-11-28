@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.deletesquare1 {
+	border-radius: 5px;
+	width: 350px;
+	height: 150px;
+	margin: 50px auto;
+	background: #373737;
+	color: white;
+	padding: 30px;
+}
+
+#deletetext1 h2 {
+	font-size: 20px;
+}
+
+#deletetext1 {
+	margin-bottom: 10px;
+}
+
+#deletetext2 {
+	margin-top: 20px;
+}
+
+#btn33 {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	width: 70px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#btn33:hover {
+	background: #f3cf63;
+	color: white;
+	border-color: #f3cf63;
+}

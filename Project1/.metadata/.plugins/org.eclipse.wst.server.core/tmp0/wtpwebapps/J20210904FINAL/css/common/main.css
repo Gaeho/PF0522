@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+	text-decoration: none;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Event Section */
+
+.event {
+	width: 100%;
+	height: 600px;
+	margin-top: -50px;
+}
+
+.event>h1 {
+	font-size: 60px; padding-top : 150px;
+	text-align: center;
+	color: #373737;
+	padding-top: 150px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.event>.contents {
+	text-align: center;
+}
+
+.icons {
+	display: flex;
+	width: 1280px;
+	height: 250px;
+	margin: auto;
+}
+
+.icons>li {
+	flex: 1;
+	background: white;
+	margin-top: 55px;
+	height: 302px;
+	text-align: center;
+}
+
+/* Product List Section */
+
+.category {
+	padding: 0 10% 0 10%;
+	/* max-width: 50%; */		/* 1020메인 변경사항 가로 최대값 삽입 및 위치 고정  */
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.category>h3 {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #5e5e5e;
+	border-bottom: 3px solid #cecece;
+}
+
+.cg-img {
+	width: 400px;			/* 1020메인변경사항 가로 세로 높이 비율 조정 1:1.2  */
+	height: 480px;
+	padding: 30px 0 120px 0;
+}
+
+.cg-list1{
+	display: flex;
+	justify-content:space-around;
+}
+
+.cg-list2{
+	display: flex;
+	justify-content:space-around;
+}

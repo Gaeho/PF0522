@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	overflow-y: scroll;
+} 
+
+/* 페이지에 모두 스크롤바 넣기(해당없으면 비활성)  */
+
+td {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.left {
+	text-align: left;
+	padding-left: 50px;
+}
+
+table {
+	/* border: 1px solid #d9d9d9;  */
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.contents {
+	width: 1200px;
+	margin: auto;
+}
+
+.mypage {
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+.mypage>div {
+	box-sizing: border-box;
+}
+
+.user_info {
+	display: inline-block;
+	vertical-align: middle;
+	border: 0.5px solid;
+	border-radius: 5px;
+	width: 18%;
+	border-color: #d9d9d9;
+	padding: 52px;
+	height: 148px
+}
+
+.user_info p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.user_info:after {
+	content: "";
+	width: 1px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.page_menu {
+	border: 0.5px solid #d9d9d9;
+	border-radius: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 45px 50px;
+	width: 70%;
+}
+
+.menu {
+	display: inline-block;
+	text-decoration: none;
+	border: 3px solid #373737;
+	border-radius: 5px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: white;
+	background: #373737;
+}
+
+.page_menu .menu a {
+	padding: 15px 30px;
+	display: block;
+	color: white;
+}
+
+.menu:hover {
+	background: #f3cf63;
+	border-color: #f3cf63;
+}
+
+.bar1 {
+	width: 3px;
+	height: 30px;
+	display: inline-block;
+	background: #d9d9d9;
+	vertical-align: middle;
+}
+
+.whitepage {
+	min-width: 1000px;
+	min-height: 800px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.menu:hover a {
+	color: white;
+	text-decoration: none;
+}
+
+#btn1 {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	width: 60px;
+	height: 30px;
+}
+
+#btn1:hover {
+	background: #5E5E5E;
+	color: white;
+}

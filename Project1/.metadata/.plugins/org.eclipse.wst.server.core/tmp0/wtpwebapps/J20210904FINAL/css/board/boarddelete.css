@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.contents {
+	width: 1200px;
+	margin: auto;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.deletesquare1 {
+	border-radius: 5px;
+	width: 350px;
+	height: 100px;
+	margin: 50px auto;
+	background: #373737;
+	color: white;
+	padding: 50px;
+}
+
+#deletetext1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#btn33 {	
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	width: 80px;
+	cursor: pointer;
+}
+
+#btn33:hover {
+   background: #f3cf63;
+   color: white;
+   border-color: #f3cf63;
+}
+
+.whitepage_bddel {
+	
+	min-width: 500px;
+	min-height: 200px;
+	
+}
+
+#deletetext2 {
+	
+	margin-top: 30px;
+	margin-bottom: 10px;
+}

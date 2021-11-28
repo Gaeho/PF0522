@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+table.myorderlist01 {
+	
+	/* 	border: none; */
+	width: 80%;
+    margin: 0 auto;
+}
+
+tr.listRow01 th {
+	
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	
+	
+}
+
+tr.listRow02 {
+	border-bottom: 1px solid #e0e0e0;
+	
+}
+
+#listnum01 {
+	
+	width: 15%;
+}
+
+#listtitle01 {
+	
+	width: 50%;
+}
+
+#listdate01 {
+	
+	width: 20%;
+}
+
+#listwriter01 {
+	
+	width: 15%;
+}
+

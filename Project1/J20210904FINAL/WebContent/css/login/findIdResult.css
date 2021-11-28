@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: absolute;
+	width: 450px;
+	height: 300px;
+	background-color: #373737;
+	margin: 200px auto;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #fff;
+	margin-top: 40px;
+	
+}
+
+.find-section>.chk {
+	font-size: 26px;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+	width: 410px;
+	height: 65px;
+	margin-top: 80px;
+	background: #f3cf63;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.find-section>.chk:hover {
+	background: #5E5E5E;
+	color: white;
+}

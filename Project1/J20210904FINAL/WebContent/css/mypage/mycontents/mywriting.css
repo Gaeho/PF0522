@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.myWrList01 {
+	border: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+tr.mwlistRow2 {
+	border-bottom: 3px solid black;
+}
+
+#mwlistnum1 {
+	width: 15%;
+}
+
+#mwlisttitle1 {
+	width: 50%;
+}
+
+#mwlistdate1 {
+	width: 20%;
+}
+
+#mwlistwriter1 {
+	width: 15%;
+}
+
+tr.mwlistRow1 {
+	border-bottom: 3px solid #d9d9d9;
+}
+
+.mwleft {
+	text-align: left;
+	padding-left: 50px;
+}

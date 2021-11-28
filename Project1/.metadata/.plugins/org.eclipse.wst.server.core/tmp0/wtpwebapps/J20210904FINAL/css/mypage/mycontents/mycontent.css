@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+div.mwContent {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+}
+
+#mwheadpoint1 {
+	width: auto;
+	display: block;
+	text-align: left;
+	background: #373737;
+	color: white;
+	max-width: 1000px;
+	height: 50px;
+}
+
+#mwfont11 {
+	padding: 20px
+}
+
+div.mwcontentsboard1 {
+	border: 3px solid #d9d9d9;
+	padding: 20px;
+}
+
+div.mwupperCont {
+	border-bottom: 3px solid #d9d9d9;
+}
+
+#mwcontrow11 {
+	display: block;
+}
+
+div.mwlowerCont {
+	border-bottom: 3px solid #d9d9d9;
+}
+
+#mwcontext1 {
+	min-height: 300px;
+	padding: 20px;
+	font-size: 20px;
+	word-break:break-all;
+}
+

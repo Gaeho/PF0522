@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.joinFormWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+
+.joinFormDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.joinFormRow {
+	display: flex;
+	width: 100%;
+	margin: 5px 0px;
+	padding: 5px 10px;
+}
+
+.joinFormRow input {
+	padding: 5px 10px;
+}
+
+.joinFormLabel {
+	width: 130px;
+	text-align: right;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.joinFormInputBox {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.joinFormInputSub {
+	margin-left: 10px;
+	border: none;
+	border-radius: 2px;
+	background-color: #373737;
+	color: #fff;
+}
+
+.ck {
+	padding-bottom: 50px;
+}
+
+.ck>input {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	height: 30px;
+}
+
+.ck>input:hover {
+	background: #5E5E5E;
+	color: white;
+}

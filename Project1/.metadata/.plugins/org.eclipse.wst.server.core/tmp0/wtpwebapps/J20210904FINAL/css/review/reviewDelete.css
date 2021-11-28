@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.revD {
+	border-radius: 5px;
+	width: 210px;
+	height: 100px;
+	margin: 10px;
+	background: #373737;
+	color: white;
+	padding: 30px;
+	margin-top: 30px;
+}
+
+.revD>th {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.chk111 {
+	margin: 30px 0 10px 0;
+}
+
+.bu {
+	border: 1px solid #cecece;
+	border-radius: 1px;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin: 0 1.5px 0 1.5px;
+	width: 60px;
+}
+
+.bu:hover {
+	background: #f3cf63;
+	color: white;
+	border-color: #f3cf63;
+}

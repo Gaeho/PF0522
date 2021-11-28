@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.PinfoTable1 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#ptabletitle1 {
+	background: #373737;;
+	color: white;
+}
+
+#ptableleft1 {
+	background: #f8f9fa;
+	text-align: center;
+	width: 200px;
+}
+
+#ptableright1 {
+	text-align: left;
+}
+
+#ptablebuttons1 {
+	text-align: right;
+}
+
+#pbtn1 {
+	border: 1px solid #d9d9d9;
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+#pbtn1:hover {
+	background: #5E5E5E;
+	color: white;
+}
+
