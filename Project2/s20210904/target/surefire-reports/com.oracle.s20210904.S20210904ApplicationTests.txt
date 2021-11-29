@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.oracle.s20210904.S20210904ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.484 s - in com.oracle.s20210904.S20210904ApplicationTests
