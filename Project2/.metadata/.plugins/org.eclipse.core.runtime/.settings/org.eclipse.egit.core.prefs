@@ -1,4 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\GitWorkSpace\\S20210904\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\PF0522\\portfolio\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\PF0522\\portfolio\\.git;
+RepositorySearchDialogSearchPath=C\:\\PF0522\\portfolio
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
